@@ -56,7 +56,6 @@ arrowl.addEventListener( "click", function (){
 
 function dote(i){
 let point = document.getElementsByClassName('dot');
-console.log(slides[i] === point[i])
 if(point[i]){
     for (let y = 0; y < point.length; y++) {
         const element = point[y];
