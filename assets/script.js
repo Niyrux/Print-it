@@ -25,6 +25,8 @@ let dots = document.getElementById('dots');
 let banner = document.getElementById('banner')
 let dot
 let point = document.getElementsByClassName('dot');
+
+
 for(let i = 0 ; i<slides.length; i++ ) {
     let dot = document.createElement('div')
     dots.appendChild(dot)
